@@ -1,0 +1,18 @@
+@keyframes colorShift {
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: green;
+  }
+  50% {
+    background-color: blue;
+  }
+  100% {
+    background-color: orange;
+  }
+}
+
+.animate-shifter {
+  animation: colorShift 1s ease-in-out forwards;
+}
