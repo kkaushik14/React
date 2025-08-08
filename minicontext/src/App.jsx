@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import UserContextProvider from './context/UserContextProvider'
+import Login from './components/Login'
+import Profile from './components/Profile'
 
 
 function App() {
@@ -7,6 +9,8 @@ function App() {
 
   return (
     <UserContextProvider>
+      <Login />
+      <Profile />
     </UserContextProvider>
   )
 }
